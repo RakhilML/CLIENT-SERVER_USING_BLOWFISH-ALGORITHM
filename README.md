@@ -2,18 +2,18 @@
 The server generates a private key (serverPrivateKey). It receives the client’s values for p, g, and clientPublicKey over the established connection. The server calculates its public key (serverPublicKey) using the received values and sends it back to the client. It computes the shared secret key (clientSharedKey) using the client’s public key.
 
 Open the CMD in the Saved directory 
-## Compile 
+## Compiling 
 ```
 javac -d . *.java
 ```
 This compiles the .java file and .class file is saved to directory. A Java class file is a file (with the .class filename extension) containing Java bytecode that can be executed on the Java Virtual Machine (JVM).
-## Start server
+## Start the server
 ```
 java Server.java
 ```
 Open the cmd and run the server and client in different terminals and communication will start.
 
-## Start Client
+## Start the Client
 ```
 java Client.java
 ```
